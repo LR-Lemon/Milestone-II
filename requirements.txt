@@ -1,0 +1,23 @@
+# SIADS 696 Milestone II — shared notebook dependencies
+# Google Colab / Python 3
+# Install: %pip install -r requirements.txt
+# These are compatible version ranges, NOT an exact reproducibility lock.
+# After validating in a fresh Colab runtime, record the exact working versions.
+
+# Data manipulation and Parquet I/O
+numpy>=1.26,<3
+pandas>=2.2,<3
+pyarrow>=14,<24
+
+# Feature engineering and statistical analysis
+scipy>=1.11,<2
+scikit-learn>=1.4,<2
+statsmodels>=0.14,<0.15
+
+# Unsupervised and supervised models
+hmmlearn>=0.3.2,<0.4
+xgboost>=2.0,<4
+
+# Visualizations
+matplotlib>=3.8,<4
+seaborn>=0.13,<0.14
